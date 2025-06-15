@@ -18,12 +18,10 @@
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 800  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 10    // default: 10
-#define BASE 0
-#define NAV  1
-#define SYM  2
-#define ADJ  3
-#define TVP1 4
-#define TVP2 5
+#define DEFAULT 0
+#define LOWER   1
+#define RAISE   2
+#define SYMBOL  3
 
 &mt {
     quick-tap-ms = <100>;
